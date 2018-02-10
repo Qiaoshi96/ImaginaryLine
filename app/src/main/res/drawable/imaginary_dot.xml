@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+    <!--shape：表示是线条-->
+    <!--width：表示是线段的高度-->
+    <!--dashGap：表示线段与线段之间间隔-->
+    <!--dashWidth：表示线段的宽度-->
+    <stroke
+        android:width="1dp"
+        android:color="#ff6677"
+        android:dashGap="5dp"
+        android:dashWidth="5dp" />
+
+</shape>

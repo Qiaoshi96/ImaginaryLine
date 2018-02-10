@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="example.xueguoxue.imaginaryline.MainActivity">
+    <!--当画一个高度为1dp的虚线实际上他占的高度是大于1dp-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layerType="software"
+        android:background="@drawable/imaginary_dot" />
+    <!--如果现在要去画一条颜色渐变的虚线-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layerType="software"
+        android:background="@drawable/imaginary_dot_gradient" />
+
+        <!--画竖直线-->
+        <example.xueguoxue.imaginaryline.JDottedLine
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="2dp"
+            android:layout_height="60dp" />
+
+
+</LinearLayout>
